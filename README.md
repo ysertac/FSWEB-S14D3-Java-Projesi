@@ -23,7 +23,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
         wheels => int
    
    * Bu 4 değişkende ```private``` olarak tanımlanmalı
-   * Car sınıfı için tek bir ```constructor``` tanımlanmalı. Construct sadece 2 değeri dışarıdan almalı cylinders ve name değerlerini. İlgili 3 arabanın da motoru bulunduğu için ve 4 tekeri olduğu için contructor metodu içerisinde bu değerler default olarak set edilmeli. Dışarıdan parametre olarak alınmaya ihtiyaç duyulmadıkları için.
+   * Car sınıfı için tek bir ```constructor``` tanımlanmalı. Constructor sadece 2 değeri dışarıdan almalı cylinders ve name değerlerini. İlgili 3 arabanın da motoru bulunduğu için ve 4 tekeri olduğu için contructor metodu içerisinde bu değerler default olarak set edilmeli. Dışarıdan parametre olarak alınmaya ihtiyaç duyulmamalı.
    * name ve cylinders parametreleri için getter metodlarını tanımlayınız.
    * Car sınıfı için toString ve equals methodlarını da ```Override``` etmelisin. Equals metodu için name ve cylinders alanları birlikte eşitliği kontrol etmeli.
    * Car sınıfı içerisinde aşağıdaki 3 metod tanımlanmalı
