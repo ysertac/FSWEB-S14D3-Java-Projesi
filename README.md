@@ -7,7 +7,16 @@ Daha sonra projeyi IntellijIDEA kullanarak açınız. README.md dosyasını dikk
 Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projelerimizi belli klasör kalıplarında saklamak işimizi kolaylaştırmak adına iyi bir alışkanlıktır.
 Örnek bir Lokasyon: Workintech/Sprint_1/Etud.
 
+### Intro
+
+Polymorphism çok biçimlilik demektir. Java'nın ve Nesne Tabanlı Programlama'nın en önemli konularından biridir.
+Java Polymorphism'in üzerine kurulmuş bir programlama dilidir. Bundan sonra göreceğimiz tüm konularda karşımıza çıkıcak ve Java'nın bel kemiğini oluşturacak.
+Polymorphism soyut bir kavram olduğu için tam olarak nasıl çalıştığını anlamak biraz zaman alabilir. Kısaca Runtime anında objelerin davranış şekillerini değiştirme olarak özetleyebiliriz.
+
+
 ### Hedeflerimiz:
+
+ ### Pacific Car Company
 
  * Bugün ki projemizde toplamda 4 tane sınıf oluşturman istenmektedir.
  * İlk sınıfımız ```Car``` isimli sınıfmız olmalı.
@@ -34,6 +43,21 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
    * ```Mitsubishi```, ```Holden```, ```Ford``` sınıfları ```Car``` sınıfının alt sınıflarıdır ve bu 3 metoduda ```Override``` etmeliler.
 
 Aşağıdaki gibi bir input değeri için output kısmında her araç türünün kendi override edilmiş metodunun çağırıldığından emin olmalısın.
+
+ ### Car R&D Company
+
+ * 'Car R&D Company' 3 farklı arabalarının dizaynını yapabilmek için yardıma ihtiyaç duyuyorlar. Bu konuda sana güvenleri tam. Problemlerini çözebilmen için seni işe aldılar.
+ * ```CarSkeleton``` isminde bir sınıf tanımlayınız. ```name ve description``` alanlarını almalı.
+ * ```CarSkeleton``` sınıfının 3 adet metodu olmalı. ```startEngine(), drive(), runEngine()``` startEngine ve drive metodları public olarak tanımlanmalı. runEngine protected olarak tanımlanmalı.
+ * runEngine metodu sadece drive metodunun içerisinden çağırılmalı.
+ * ```CarSkeleton``` sınıfının 3 tane de ```subclass``` değeri tanımlanmalı. ```GasPoweredCar```, ```ElectricCar```, ```HybridCar```
+ * ```GasPoweredCar``` iki sınıf değişkeni içerir. ```avgKmPerLitre: double ve cylinders: int```
+ * ```ElectricCar``` iki sınıf değişkeni içerir. ```avgKmPerCharge: double ve batterySize: int```
+ * ```HybridCar``` üç sınıf değişkeni içerir. ```avgKmPerLitre: double, batterySize: int, cylinders: int```
+ * Bu üç farklı sınıfta ```startEngine ve drive``` metodlarını engine(motor) tiplerine göre farklı şekillerde çağırırlar.
+ * Tüm dizaynı yapmak senin görevin. Alt sınıflar ```CarSkeleton``` içerisindeki bazı metodları ya da hepsini Override etmeli mi ?
+ * Bir adet Main sınıfı tanımlayınız ve tüm sınıfların objelerinden polymorphism kurallarına uyacak şekilde birer instance oluşturunuz.
+ * Her instance ile sınıfın davranışını test edin. Bir tane metodunuz sınıfın tipini ekrana basmalı.
 
 ### INPUT
 
