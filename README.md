@@ -49,7 +49,7 @@ Aşağıdaki gibi bir input değeri için output kısmında her araç türünün
  * 'Car R&D Company' 3 farklı arabalarının dizaynını yapabilmek için yardıma ihtiyaç duyuyorlar. Bu konuda sana güvenleri tam. Problemlerini çözebilmen için seni işe aldılar.
  * ```CarSkeleton``` isminde bir sınıf tanımlayınız. ```name ve description``` alanlarını almalı.
  * ```CarSkeleton``` sınıfının 3 adet metodu olmalı. ```startEngine(), drive(), runEngine()``` startEngine ve drive metodları public olarak tanımlanmalı. runEngine protected olarak tanımlanmalı.
- * runEngine metodu sadece drive metodunun içerisinden çağırılmalı.
+ * runEngine metodu drive metodunun içerisinden çağırılmalı.
  * ```CarSkeleton``` sınıfının 3 tane de ```subclass``` değeri tanımlanmalı. ```GasPoweredCar```, ```ElectricCar```, ```HybridCar```
  * ```GasPoweredCar``` iki sınıf değişkeni içerir. ```avgKmPerLitre: double ve cylinders: int```
  * ```ElectricCar``` iki sınıf değişkeni içerir. ```avgKmPerCharge: double ve batterySize: int```
